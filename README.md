@@ -1,4 +1,5 @@
 # QR Code Generator
+[![CodeFactor](https://www.codefactor.io/repository/github/akerdogmus/qrcode_generator/badge)](https://www.codefactor.io/repository/github/akerdogmus/qrcode_generator)
 
 Basic QR Code Generator.
 
