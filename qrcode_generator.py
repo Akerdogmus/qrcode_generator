@@ -18,6 +18,7 @@ class QRCodeGenerator():
         else:
             # generated QR name
             self.qr_code_name = sys.argv[2]
+            print("QR Code Generating...")
             self.qrcode_generator()
 
     def qrcode_generator(self):
@@ -28,6 +29,7 @@ class QRCodeGenerator():
         generated_url.svg(self.qr_code_name + ".svg", scale = 8)
         # Create and save the png file.
         generated_url.png(self.qr_code_name + '.png', scale = 6)
+        print("Process Completed...")
 
     @classmethod
     def help_section(cls):
